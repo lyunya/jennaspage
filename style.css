@@ -17,7 +17,6 @@ time, mark, audio, video {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
-    background-color: ;
 }
 * {
 	margin: 0;
@@ -27,9 +26,8 @@ time, mark, audio, video {
 
 html {
 	height: 2000px;
-	background-color: #FDFFA0;
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4a/Hovhannes_Aivazovsky_-_The_Ninth_Wave_-_Google_Art_Project.jpg);
-	background-size: 100% auto;
+	background-size: 100% auto stretch;
 	background-position: top center;
 	background-attachment: fixed;
 	}
@@ -187,11 +185,9 @@ ul{
 ul li{
   list-style: none;
   display: inline-block;
-  line-height: ;
 }
 ul li a{
   display: block;
-  background-color:;
   text-decoration: none;
   color: black;
   font-size: 19px;
@@ -200,7 +196,6 @@ ul li a{
   padding: 25px 30px 25px 30px;
 }
 ul li a:hover{
-
   background-color: #FDFFA0;
   transition-duration: 1.0s;
 }
